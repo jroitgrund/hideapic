@@ -4,6 +4,7 @@ hideapic.iml
 hideapic.ipr
 hideapic.iws
 *.class
+build/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
