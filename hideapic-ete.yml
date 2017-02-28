@@ -1,4 +1,4 @@
 server:
   rootPath: /*
 
-redisHostUri: localhost
+redisHostUri: redis
