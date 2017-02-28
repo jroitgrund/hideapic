@@ -1,6 +1,7 @@
 package me.roitgrund.hideapic;
 
 import io.dropwizard.Application;
+import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import io.dropwizard.views.ViewBundle;
@@ -14,6 +15,7 @@ public class HideAPicApplication extends Application<HideAPicConfiguration> {
   @Override
   public void initialize(Bootstrap<HideAPicConfiguration> bootstrap) {
     bootstrap.addBundle(new ViewBundle<>());
+    bootstrap.addBundle(new AssetsBundle("/assets", "/assets"));
   }
 
   @Override

@@ -1,9 +1,10 @@
 .gradle
-hideapic.iml
-hideapic.ipr
-hideapic.iws
+*.iml
+*.ipr
+*.iws
 *.class
 build/
+generated_src
 out/
 
 # Mobile Tools for Java (J2ME)
